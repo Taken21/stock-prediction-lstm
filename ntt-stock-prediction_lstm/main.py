@@ -3,7 +3,7 @@ from src.features import create_features
 from src.models import StockPredictionModel
 
 # ファイルパス
-data_path = "data/stock_data.csv"
+data_path = "data/stock_price.csv"
 
 # 1. データ読み込み
 df = load_data(data_path)
